@@ -60,5 +60,5 @@ class Song
 end
 
 hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop")
-lucifer = Song.new("Lucifer", "Jay-Z", "rap" ) }
-ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap") }
+lucifer = Song.new("Lucifer", "Jay-Z", "rap" ) 
+ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap") 
