@@ -34,9 +34,13 @@ class Song
   end
 
   def self.genre_count
-
+    @@genre_count = {}
     @@genres.each do | genre |
-
+      if !@@genre_count.include?(genre)
+        @@genre_count[genre] = 1
+      else
+        @@genre_count[genre] += 1
+      end
     end
   end
 end
